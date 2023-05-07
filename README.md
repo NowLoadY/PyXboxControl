@@ -1,5 +1,7 @@
 # PyXboxControl
+![](https://img.shields.io/badge/python-3.x-brightgreen)
 
+<img src="https://github.com/NowLoadY/PyXboxControl/blob/main/img/pyxboxcontrol.jpg" alt="pyxboxcontrol" width="400px" />
 (not official but easy to use)
 
 PyXboxControl is a Python library for controlling an Xbox controller. It provides a simple interface for capturing joystick and button inputs and applying force feedback to the controller.
