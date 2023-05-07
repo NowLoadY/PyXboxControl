@@ -106,7 +106,7 @@ def handle_work():
         XboxController.event_vibration_feedback('light')
 
     # -------------------------#
-    # 手柄全权掌控
+    # 其它按钮
     # -------------------------#
     if button_state.get('task'):
         XboxController.event_vibration_feedback('switch')
