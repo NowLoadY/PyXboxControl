@@ -1,7 +1,7 @@
 import math
 import time
 
-import my_xbox_handle
+import pyxboxcontrol
 
 
 # Here you can add your own code to control the ship using the Xbox controller.
@@ -118,7 +118,7 @@ def handle_work():
         XboxController.event_vibration_feedback('switch')
 
 
-XboxController = my_xbox_handle.XboxController()
+XboxController = pyxboxcontrol.XboxController()
 while True:
     handle_work()
     time.sleep(0.03)
